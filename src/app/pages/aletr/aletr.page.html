@@ -1,0 +1,23 @@
+
+<app-header titulo="Alert pages"></app-header>
+<!--
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+    <ion-back-button text="Regresar"></ion-back-button>
+</ion-buttons>
+    <ion-title ></ion-title>
+  </ion-toolbar>
+</ion-header>
+-->
+
+<ion-content [fullscreen]="true">
+<ion-button color="primary" (click)="presentAlert()"  expand="full">
+  Mostrar Alerta 
+</ion-button>
+
+<ion-button color="secondary" (click)="presentInput()" expand="full">
+  Mostrar input
+</ion-button>
+
+</ion-content>

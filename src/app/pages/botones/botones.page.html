@@ -1,0 +1,50 @@
+<app-header titulo="Botones"></app-header>
+  <ion-toolbar>
+   
+
+<ion-buttons slot="end">
+<ion-button color="primary">
+  <ion-icon name="heart"></ion-icon>
+</ion-button>
+<ion-button color="primary">
+  <ion-icon name="star"></ion-icon>
+</ion-button>
+</ion-buttons>
+
+
+  </ion-toolbar>
+
+
+
+
+
+
+<ion-content [fullscreen]="true">
+<ion-button size="small" expand="full" >small</ion-button>
+<ion-button size="default" expand="full">default</ion-button>
+<ion-button size="large" expand="full">large</ion-button>
+
+<ion-button class="TOP-20" expand="full" color="tertiary" routerLink="/avatar">
+Anchor
+</ion-button>
+
+<ion-row class="TOP-20">
+  <ion-col>
+    <ion-button expand="full" color="tertiary" routerLink="/aletr">
+      Alert
+    </ion-button>
+    </ion-col>
+    <ion-col>
+<ion-button expand="full" color="tertiary" routerLink="/action-sheet">
+  Action-sheet
+</ion-button>
+
+  </ion-col>
+</ion-row>
+
+
+<ion-button class="TOP-20" fill="clear">clear</ion-button>
+<ion-button class="TOP-20" fill="outline">outline</ion-button>
+<ion-button class="TOP-20" fill="solid">solid</ion-button>
+ 
+</ion-content>
